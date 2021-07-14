@@ -170,15 +170,67 @@ header .content button:hover{
         font-size: 12px;
     }
 }
-
-
-
-
-
-
-
-
 /* end media for section advices */
 /* end section advices */
+
+
+/* start section menu */
+.menu{
+    margin : 90px 0px;
+}
+
+.menu .row{
+    border-bottom: 1px solid black;
+}
+
+.menu .left ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.menu .left ul li{
+    display: inline-block;
+    margin-right: 40px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.menu .left ul li:hover{
+    border-bottom: 1px solid aqua;
+    transition: all .5s;
+}
+
+.menu .right button{
+    background-color: black;
+    color: #fff;
+    padding: 5px 22px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    transition: all .5s;
+}
+/* start media for section menu */
+@media(max-width: 767px) {                                    /* small screen rules */
+    .menu .left{
+        text-align: center;
+    }
+
+    .menu .left ul li{
+        margin-right: 10px;
+    }
+
+    .menu .right{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {            /* meduim screen rules */
+    .menu .left ul li{
+        margin-right: 20px;
+    }
+}
+/* end media for section menu */
+/* end section menu */
 
 
