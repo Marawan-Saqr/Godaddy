@@ -138,4 +138,47 @@ header .content button:hover{
 /* end media for header */
 /* end header */
 
+/* start section advices */
+.advices{
+    margin: 40px 0px;
+}
+
+.advices .box h6{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.advices .box p{
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+}
+/* start media for section advices */
+@media (max-width: 767px) {                                   /* small screen rules */
+    .advices .box{
+        margin-bottom: 50px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {            /* meduim screen rules */
+    .advices .box h6{
+        font-size: 12px;
+    }
+
+    .advices .box p{
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+/* end media for section advices */
+/* end section advices */
+
 
