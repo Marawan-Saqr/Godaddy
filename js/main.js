@@ -34,7 +34,7 @@ $(document).ready(function(){
             right: "0",
             left: "0",
             zIndex: "1030",
-            background: "rgb(251 238 238)",
+            background: "#fff",
            });
 
            $(".menu .left ul .first").css("border-bottom", "1px solid aqua");
@@ -87,6 +87,37 @@ $(document).ready(function(){
             $(".menu .left ul .fourth").css("border-bottom", "none");
         }
     });
+
+    $(window).scroll(function(){
+        if($(window).scrollTop() > 3345) {
+            $(".menu .left ul .first").css("border-bottom", "none");
+            $(".menu .left ul .second").css("border-bottom", "none");
+            $(".menu .left ul .third").css("border-bottom", "none");
+            $(".menu .left ul .fourth").css("border-bottom", "none");
+        }      
+    });
+
+    // show paragraph in section questions
+    $(".down .q-one").click(function(){
+        $(".down .q-one p").fadeToggle();
+    });
+
+    $(".down .q-two").click(function(){
+        $(".down .q-two p").fadeToggle();
+    });
+
+    $(".down .q-three").click(function(){
+        $(".down .q-three p").fadeToggle();
+    });
+
+    $(".down .q-four").click(function(){
+        $(".down .q-four p").fadeToggle();
+    });
+
+    $(".down .q-five").click(function(){
+        $(".down .q-five p").fadeToggle();
+    });
+
 
 
 

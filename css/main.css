@@ -179,9 +179,6 @@ header .content button:hover{
 .menu{
     margin : 10px 0px;
     transition: all .5s;
-}
-
-.menu .row{
     border-bottom: 1px solid black;
 }
 
@@ -419,6 +416,99 @@ header .content button:hover{
 }
 /* end media for section support */
 /* end section support */
+
+/* start section questions */
+.questions{
+    margin: 90px 0px;
+}
+
+.questions h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.questions h1 a{
+    color: black;
+}
+
+.questions h1 i{
+    font-size: 29px;
+    margin-left: 11px;
+    border-radius: 50%;
+    padding: 14px;
+    background-color: #3c3c3c14;
+    cursor: pointer;
+    animation-name: arrow-topBottom;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arrow-topBottom{
+    25%{
+        position: relative;
+        top: 5px;
+    }
+
+    50%{
+        position: relative;
+        top: 10px;
+    }
+
+    75%{
+        position: relative;
+        top: 15px;
+    }
+
+    100%{
+        position: relative;
+        top: 20px;
+    }
+}
+
+.questions .down{
+    margin: 60px 0px;
+}
+
+.questions .down .q-one{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.questions .down .q-two{
+    border-bottom: 1px solid black;
+}
+
+.questions .down .q-three{
+    border-bottom: 1px solid black;
+}
+
+.questions .down .q-four{
+    border-bottom: 1px solid black;
+}
+
+.questions .down .q-five{
+    border-bottom: 1px solid black;
+}
+
+.questions .down h3{
+    margin: 40px 0px;
+}
+
+.questions .down i{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* end section questions */
 
 
 
