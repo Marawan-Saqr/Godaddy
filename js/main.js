@@ -132,50 +132,7 @@ $(document).ready(function(){
         $(".window .modal").hide();
     })
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }); // document
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // plugins

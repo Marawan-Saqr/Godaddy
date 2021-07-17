@@ -1,7 +1,6 @@
 /* start personal theme */
 body{
     font-family: 'Roboto', sans-serif;
-    height: 6000px;
     position: relative;
 }
 
@@ -508,7 +507,7 @@ header .content button:hover{
 }
 
 .window h1{
-    margin: 78px 0px;
+    margin-top: 78px;
     background: #00bfbf;
     color: #fff;
     padding: 28px 0px;
@@ -518,23 +517,52 @@ header .content button:hover{
 }
 /* end section window */
 
+/* start footer */
+footer{
+    background-color: #232323;
+    padding: 30px 0px;
+    margin-top: -7px;
+}
 
+footer h4{
+    color: #fff;
+}
 
+footer h1{
+    color: #fff;
+    font-size: 64px;
+}
 
+footer h1 span{
+    color: blue;
+}
 
+footer h1 span i{
+    margin-left: 10px;
+}
 
+footer p{
+    color: #fff;
+    margin: 30px 0px;
+    padding: 20px 0px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
 
+footer ul{
+    list-style-type: none;
+    color: #fff;
+    margin-top: 20px;
+}
 
+footer ul h6{
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+footer ul li{
+    font-size: 13px;
+    line-height: 3.2;
+}
+/* end footer */
