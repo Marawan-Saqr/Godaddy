@@ -63,6 +63,32 @@ $(document).ready(function(){
     });
 
 
+    //.menu .left ul .third
+    $(window).scroll(function(){
+        if($(window).scrollTop() > 2343) {
+            $(".menu .left ul .first").css("border-bottom", "none");
+            $(".menu .left ul .second").css("border-bottom", "none");
+            $(".menu .left ul .third").css("border-bottom", "1px solid aqua");
+
+        } else if ($(window).scrollTop() < 2343) {
+            $(".menu .left ul .third").css("border-bottom", "none");
+        }
+    });
+
+    //.menu .left ul .fourth
+    $(window).scroll(function(){
+        if($(window).scrollTop() > 2854) {
+            $(".menu .left ul .first").css("border-bottom", "none");
+            $(".menu .left ul .second").css("border-bottom", "none");
+            $(".menu .left ul .third").css("border-bottom", "none");
+            $(".menu .left ul .fourth").css("border-bottom", "1px solid aqua");
+
+        } else if ($(window).scrollTop() < 2854) {
+            $(".menu .left ul .fourth").css("border-bottom", "none");
+        }
+    });
+
+
 
 
 
