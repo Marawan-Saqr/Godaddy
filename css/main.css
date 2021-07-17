@@ -2,6 +2,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     height: 6000px;
+    position: relative;
 }
 
 .display{
@@ -498,17 +499,24 @@ header .content button:hover{
 .questions .down i{
     cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
 /* end section questions */
+
+/* start section window */
+.window h6{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.window h1{
+    margin: 78px 0px;
+    background: #00bfbf;
+    color: #fff;
+    padding: 28px 0px;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 1px 1px 9px 1px black;
+}
+/* end section window */
 
 
 

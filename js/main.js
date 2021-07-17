@@ -118,6 +118,24 @@ $(document).ready(function(){
         $(".down .q-five p").fadeToggle();
     });
 
+    // show and hide model in section window
+
+    $(".window h6").click(function(){
+        $(".window .modal").show();
+    })
+
+    $(".window .modal .close").click(function(){
+        $(".window .modal").hide();
+    })
+
+    $(".window .modal .close-two").click(function(){
+        $(".window .modal").hide();
+    })
+
+
+
+
+
 
 
 
