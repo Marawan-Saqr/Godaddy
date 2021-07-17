@@ -1,6 +1,7 @@
 /* start personal theme */
 body{
     font-family: 'Roboto', sans-serif;
+    height: 3000px;
 }
 
 .display{
@@ -176,7 +177,8 @@ header .content button:hover{
 
 /* start section menu */
 .menu{
-    margin : 90px 0px;
+    margin : 10px 0px;
+    transition: all .5s;
 }
 
 .menu .row{
@@ -193,6 +195,11 @@ header .content button:hover{
     margin-right: 40px;
     transition: all .5s;
     cursor: pointer;
+}
+
+.menu .left ul a{
+    text-decoration: none;
+    color: black;
 }
 
 .menu .left ul li:hover{
@@ -233,4 +240,116 @@ header .content button:hover{
 /* end media for section menu */
 /* end section menu */
 
+/* start section powerfull */
+.powerfull{
+    margin-top: 120px;
+}
 
+.powerfull .left button{
+    padding: 10px 46px;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.powerfull .left button:hover{
+    background-color: black;
+    color: #fff;
+    transform: scale(1.1, 1.1);
+    transition: all .5s;
+}
+
+.powerfull .right img{
+    border-radius: 3px;
+}
+/* start media for section powerfull */
+@media (max-width: 767px) {                      /* small screen rules */
+    .powerfull .left{
+        margin-bottom: 30px;
+    }
+}
+/* end media for section powerfull */
+/* end section powerfull */
+
+/* start section slider */
+.slider{
+    margin-top: 95px;
+    background-color: #ffdde3;
+    padding: 40px
+}
+
+.slider h1{
+    font-size: 45px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.slider .slider-box .content{
+    overflow: hidden;
+}
+
+.slider .slider-box img{
+    border-radius: 15px;
+    transition: all .5s;
+    cursor: pointer;
+    width: 93%;
+}
+
+.slider .slider-box img:hover{
+    transform: scale(1.1, 1.1);
+    transition: all .5s;
+}
+/* end section slider */
+
+
+
+/* start section marketing */
+.marketing{
+    margin-top: 120px;
+}
+
+.marketing .left button{
+    padding: 10px 46px;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.marketing .left button:hover{
+    background-color: black;
+    color: #fff;
+    transform: scale(1.1, 1.1);
+    transition: all .5s;
+}
+
+.marketing .right img{
+    border-radius: 5px;
+}
+/* start media for section marketing */
+@media (max-width: 767px) {                      /* small screen rules */
+    .marketing .left{
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end media for section marketing */
+/* end section marketing */
